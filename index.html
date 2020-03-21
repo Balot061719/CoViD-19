@@ -1,0 +1,446 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="css/styles.css" type="text/css" />
+		<link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Bowlby+One&display=swap" rel="stylesheet">
+		
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-157752673-10"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-157752673-10');
+		</script>
+		
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-161484869-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-161484869-1');
+		</script>
+	</head>
+	
+	<body id = "body">
+		<div class = "header">
+			COVID-19
+			<div class = "menuIcon" id = "menuIcon" onclick = "toggleMenu()">
+				<img src = "img/menu.png"/>
+			</div>
+		</div>
+		<div class = "container">
+			<h1 class = "title">CORONA VIRUS: DARE TO CARE</h1>
+			<!-- COMPONENT 1 -->
+			<div class = "viewport">
+				<div class = "slider" id="slider">
+					<img src="img/img1_1.jpg" />
+					<img src="img/img1_2.jpg" />
+					<img src="img/img1_3.jpg" />
+					<img src="img/img1_4.jpg" />
+				</div>
+				<div class = "prev_arrow" onclick="moveImageBack()">
+				<img src = "img/arrow_left.png" />
+				</div>
+				<div class = "next_arrow" onclick="moveImageNext()">
+				<img src = "img/arrow_right.png" />
+				</div>
+			</div>
+			<!-- COMPONENT 2 -->
+			<h1>WHAT IS THIS VIRUS?</h1>
+			<p>
+				Coronavirus are a large family of virus that usually results in respiratory symptoms. They transmitted between animals and
+				people. Covid-19 is a new kind of coronavirus that has never been seen before.</p>
+			<div class = "accordionContainer">
+				<div class = "accordion">
+					<div class = "accordionHeader" onclick = "toggleAccordion(this)">
+						Origin
+					</div>
+					<div class = "accordionContent">
+						The analysis of public genome sequence data
+						from SARS-CoV-2 and related viruses found no evidence that the virus was made in a
+						laboratory or otherwise engineered. "By comparing the available genome sequence data
+						for known coronavirus strains, we can firmly determine that SARS-CoV-2 originated through
+						natural processes," said Kristian Andersen, PhD, an associate professor of immunology and
+						microbiology at Scripps Research and corresponding author on the paper. In addition to Andersen,
+						authors on the paper, "The proximal origin of SARS-CoV-2," include Robert F. Garry, of Tulane University;
+						Edward Holmes, of the University of Sydney; Andrew Rambaut, of University of Edinburgh; W. Ian Lipkin, of
+						Columbia University. Coronaviruses are a large family of viruses that can cause illnesses ranging widely in
+						severity. The first known severe illness caused by a coronavirus emerged with the 2003 Severe Acute
+						Respiratory Syndrome (SARS) epidemic in China. A second outbreak of severe illness began in 2012 in
+						Saudi Arabia with the Middle East Respiratory Syndrome (MERS). On December 31 of last year, Chinese
+						authorities alerted the World Health Organization of an outbreak of a novel strain of coronavirus
+						ausing severe illness, which was subsequently named SARS-CoV-2. As of February 20, 2020, nearly 167,500
+						COVID-19 cases have been documented, although many more mild cases have likely gone undiagnosed. The virus
+						has killed over 6,600 people. Shortly after the epidemic began, Chinese scientists sequenced the genome of
+						SARS-CoV-2 and made the data available to researchers worldwide. The resulting genomic sequence data has shown
+						that Chinese authorities rapidly detected the epidemic and that the number of COVID-19 cases have been increasing
+						because of human to human transmission after a single introduction into the human population. Andersen
+						and collaborators at several other research institutions used this sequencing data to explore the origins
+						and evolution of SARS-CoV-2 by focusing in on several tell-tale features of the virus. The scientists analyzed
+						the genetic template for spike proteins, armatures on the outside of the virus that it uses to grab and
+						penetrate the outer walls of human and animal cells. More specifically, they focused on two important
+						features of the spike protein: the receptor-binding domain (RBD), a kind of grappling hook that grips
+						onto host cells, and the cleavage site, a molecular can opener that allows the virus to crack open and
+						enter host cells.
+					</div>
+					<div class = "accordionHeader" onclick = "toggleAccordion(this)">
+						Infection Path
+					</div>
+					<div class = "accordionContent">
+						The analysis of public genome sequence data
+						from SARS-CoV-2 and related viruses found no evidence that the virus was made in a
+						laboratory or otherwise engineered. "By comparing the available genome sequence data
+						for known coronavirus strains, we can firmly determine that SARS-CoV-2 originated through
+						natural processes," said Kristian Andersen, PhD, an associate professor of immunology and
+						microbiology at Scripps Research and corresponding author on the paper. In addition to Andersen,
+						authors on the paper, "The proximal origin of SARS-CoV-2," include Robert F. Garry, of Tulane University;
+						Edward Holmes, of the University of Sydney; Andrew Rambaut, of University of Edinburgh; W. Ian Lipkin, of
+						Columbia University. Coronaviruses are a large family of viruses that can cause illnesses ranging widely in
+						severity. The first known severe illness caused by a coronavirus emerged with the 2003 Severe Acute
+						Respiratory Syndrome (SARS) epidemic in China. A second outbreak of severe illness began in 2012 in
+						Saudi Arabia with the Middle East Respiratory Syndrome (MERS). On December 31 of last year, Chinese
+						authorities alerted the World Health Organization of an outbreak of a novel strain of coronavirus
+						ausing severe illness, which was subsequently named SARS-CoV-2. As of February 20, 2020, nearly 167,500
+						COVID-19 cases have been documented, although many more mild cases have likely gone undiagnosed. The virus
+						has killed over 6,600 people. Shortly after the epidemic began, Chinese scientists sequenced the genome of
+						SARS-CoV-2 and made the data available to researchers worldwide. The resulting genomic sequence data has shown
+						that Chinese authorities rapidly detected the epidemic and that the number of COVID-19 cases have been increasing
+						because of human to human transmission after a single introduction into the human population. Andersen
+						and collaborators at several other research institutions used this sequencing data to explore the origins
+						and evolution of SARS-CoV-2 by focusing in on several tell-tale features of the virus. The scientists analyzed
+						the genetic template for spike proteins, armatures on the outside of the virus that it uses to grab and
+						penetrate the outer walls of human and animal cells. More specifically, they focused on two important
+						features of the spike protein: the receptor-binding domain (RBD), a kind of grappling hook that grips
+						onto host cells, and the cleavage site, a molecular can opener that allows the virus to crack open and
+						enter host cells.
+					</div>
+					<div class = "accordionHeader" onclick = "toggleAccordion(this)">
+						Biological Chuchu
+					</div>
+					<div class = "accordionContent">
+						The analysis of public genome sequence data
+						from SARS-CoV-2 and related viruses found no evidence that the virus was made in a
+						laboratory or otherwise engineered. "By comparing the available genome sequence data
+						for known coronavirus strains, we can firmly determine that SARS-CoV-2 originated through
+						natural processes," said Kristian Andersen, PhD, an associate professor of immunology and
+						microbiology at Scripps Research and corresponding author on the paper. In addition to Andersen,
+						authors on the paper, "The proximal origin of SARS-CoV-2," include Robert F. Garry, of Tulane University;
+						Edward Holmes, of the University of Sydney; Andrew Rambaut, of University of Edinburgh; W. Ian Lipkin, of
+						Columbia University. Coronaviruses are a large family of viruses that can cause illnesses ranging widely in
+						severity. The first known severe illness caused by a coronavirus emerged with the 2003 Severe Acute
+						Respiratory Syndrome (SARS) epidemic in China. A second outbreak of severe illness began in 2012 in
+						Saudi Arabia with the Middle East Respiratory Syndrome (MERS). On December 31 of last year, Chinese
+						authorities alerted the World Health Organization of an outbreak of a novel strain of coronavirus
+						ausing severe illness, which was subsequently named SARS-CoV-2. As of February 20, 2020, nearly 167,500
+						COVID-19 cases have been documented, although many more mild cases have likely gone undiagnosed. The virus
+						has killed over 6,600 people. Shortly after the epidemic began, Chinese scientists sequenced the genome of
+						SARS-CoV-2 and made the data available to researchers worldwide. The resulting genomic sequence data has shown
+						that Chinese authorities rapidly detected the epidemic and that the number of COVID-19 cases have been increasing
+						because of human to human transmission after a single introduction into the human population. Andersen
+						and collaborators at several other research institutions used this sequencing data to explore the origins
+						and evolution of SARS-CoV-2 by focusing in on several tell-tale features of the virus. The scientists analyzed
+						the genetic template for spike proteins, armatures on the outside of the virus that it uses to grab and
+						penetrate the outer walls of human and animal cells. More specifically, they focused on two important
+						features of the spike protein: the receptor-binding domain (RBD), a kind of grappling hook that grips
+						onto host cells, and the cleavage site, a molecular can opener that allows the virus to crack open and
+						enter host cells.
+					</div>
+					<div class = "accordionHeader" onclick = "toggleAccordion(this)">
+						Damage Caused
+					</div>
+					<div class = "accordionContent">
+						The analysis of public genome sequence data
+						from SARS-CoV-2 and related viruses found no evidence that the virus was made in a
+						laboratory or otherwise engineered. "By comparing the available genome sequence data
+						for known coronavirus strains, we can firmly determine that SARS-CoV-2 originated through
+						natural processes," said Kristian Andersen, PhD, an associate professor of immunology and
+						microbiology at Scripps Research and corresponding author on the paper. In addition to Andersen,
+						authors on the paper, "The proximal origin of SARS-CoV-2," include Robert F. Garry, of Tulane University;
+						Edward Holmes, of the University of Sydney; Andrew Rambaut, of University of Edinburgh; W. Ian Lipkin, of
+						Columbia University. Coronaviruses are a large family of viruses that can cause illnesses ranging widely in
+						severity. The first known severe illness caused by a coronavirus emerged with the 2003 Severe Acute
+						Respiratory Syndrome (SARS) epidemic in China. A second outbreak of severe illness began in 2012 in
+						Saudi Arabia with the Middle East Respiratory Syndrome (MERS). On December 31 of last year, Chinese
+						authorities alerted the World Health Organization of an outbreak of a novel strain of coronavirus
+						ausing severe illness, which was subsequently named SARS-CoV-2. As of February 20, 2020, nearly 167,500
+						COVID-19 cases have been documented, although many more mild cases have likely gone undiagnosed. The virus
+						has killed over 6,600 people. Shortly after the epidemic began, Chinese scientists sequenced the genome of
+						SARS-CoV-2 and made the data available to researchers worldwide. The resulting genomic sequence data has shown
+						that Chinese authorities rapidly detected the epidemic and that the number of COVID-19 cases have been increasing
+						because of human to human transmission after a single introduction into the human population. Andersen
+						and collaborators at several other research institutions used this sequencing data to explore the origins
+						and evolution of SARS-CoV-2 by focusing in on several tell-tale features of the virus. The scientists analyzed
+						the genetic template for spike proteins, armatures on the outside of the virus that it uses to grab and
+						penetrate the outer walls of human and animal cells. More specifically, they focused on two important
+						features of the spike protein: the receptor-binding domain (RBD), a kind of grappling hook that grips
+						onto host cells, and the cleavage site, a molecular can opener that allows the virus to crack open and
+						enter host cells.
+					</div>
+				</div>				
+			</div>
+			<!-- COMPONENT 4 -->
+			<div class = "alertButtonContainer">
+				<div class = "alertButton" id = "alertButton1" onclick = "alert1()">
+					I will follow the Home Quarantine and stay at home.
+				</div>
+				<div class = "alertButton" id = "alertButton2" onclick = "alert2()">
+					I will loiter outside my house for no good reason at all.
+				</div>
+				<div class = "alertButton" id = "alertButton3" onclick = "alert3()">
+					What is Home Quarantine? Why do I need to follow it?
+				</div>
+			</div>
+			<div class = "alertContainer" id = "alertContainer">
+			
+			</div>
+			<!-- COMPONENT 5 -->
+			<div class = "gallery">
+				<div class = "galleryCountry">
+					<div class = "countryHeader">
+						<h2>Italy</h2>
+					</div>
+					<div class = "countryImages">
+						<img src = "img/italy1.jpg" onclick = "toggleImage('show'); inputContent(this)"/>
+						<p id = "caption">Passenger ship gears up to host COVID-19 patients in Italy</p>
+						<img src = "img/italy2.jpg" onclick = "toggleImage('show'); inputContent(this)"/>
+						<p id = "caption">Frontliners guarding patients with the virus</p>
+						<img src = "img/italy3.jpg" onclick = "toggleImage('show'); inputContent(this)"/>
+						<p id = "caption">People in hospitals wearing facemasks to avoid contamination</p>
+					</div>
+					<div class = "countryImages">
+						<img src = "img/italy4.jpg" onclick = "toggleImage('show'); inputContent(this)"/>
+						<p id = "caption">There are no people even in Italy's popular tourist spots</p>
+						<img src = "img/italy5.jpg" onclick = "toggleImage('show'); inputContent(this)"/>
+						<p id = "caption">A few or no people in the streets during the lockdown</p>
+						<img src = "img/italy6.jpg" onclick = "toggleImage('show'); inputContent(this)"/>
+						<p id = "caption">Frontliners disinfecting places in Italy</p>
+					</div>
+				</div>
+				<div class = "galleryCountry">
+					<div class = "countryHeader">
+						<h2>China</h2>
+					</div>
+					<div class = "countryImages">
+						<img src = "img/china1.jpg" onclick = "toggleImage('show'); inputContent(this)"/>
+						<p id = "caption">A very few amount of people circling in towns in China</p>
+						<img src = "img/china2.jpg" onclick = "toggleImage('show'); inputContent(this)"/>
+						<p id = "caption">China President Xi Jingping wearing a face mask while addressing China about the COVID-19 case.</p>
+						<img src = "img/china3.jpg" onclick = "toggleImage('show'); inputContent(this)"/>
+						<p id = "caption">Frontliners hugged by their relatives</p>
+					</div>
+					<div class = "countryImages">
+						<img src = "img/china4.jpg" onclick = "toggleImage('show'); inputContent(this)"/>
+						<p id = "caption">Frontliners bringing the patient to the Intensive Care Unit</p>
+						<img src = "img/china5.jpg" onclick = "toggleImage('show'); inputContent(this)"/>
+						<p id = "caption">Frontliners hugged by their patients</p>
+						<img src = "img/china6.jpg" onclick = "toggleImage('show'); inputContent(this)"/>
+						<p id = "caption">Frontliners checking the temperature of a citizen using a thermal scanner</p>
+					</div>
+				</div>
+				<div class = "galleryCountry">
+					<div class = "countryHeader">
+						<h2>Philippines</h2>
+					</div>
+					<div class = "countryImages">
+						<img src = "img/ph1.jpg" onclick = "toggleImage('show'); inputContent(this)"/>
+						<p id = "caption">Everyone wearing face masks while they're on the streets because of the COVID-19 scare</p>
+						<img src = "img/ph2.jpg" onclick = "toggleImage('show'); inputContent(this)"/>
+						<p id = "caption">Rodrigo Duterte, President of the Philippines, addressing the country on the current quarantine and lockdown of the Philippines</p>
+						<img src = "img/ph3.jpg" onclick = "toggleImage('show'); inputContent(this)"/>
+						<p id = "caption">Motorists queued as they are waiting their temperatures to be checked before crossing the borders of Metro Manila</p>
+					</div>
+					<div class = "countryImages">
+						<img src = "img/ph4.jpg" onclick = "toggleImage('show'); inputContent(this)"/>
+						<p id = "caption">People in terminals that want to go home are unable o practice social distancing</p>
+						<img src = "img/ph5.jpg" onclick = "toggleImage('show'); inputContent(this)"/>
+						<p id = "caption">Military officers in checkpoints located at the borders of Metro Manila, checking temperatures of the citizens going in and out of NCR</p>
+						<img src = "img/ph6.jpg" onclick = "toggleImage('show'); inputContent(this)"/>
+						<p id = "caption">The Research Institute for Tropical Medicine located at Muntinlupa where test kits for COVID-19 testing are made</p>
+					</div>
+				</div>
+			</div>
+			<div class = "modal" id = "modal">
+				<div class = "modalBox" id = "modalBox">
+					<img src = ""/ id = "modalImage">
+					<p id = "modalP"></p>
+				</div>
+				<img class = "closeModalIcon" src = "img/close.png" onclick = "toggleImage('hide')">
+			</div>
+		</div>
+		<!-- COMPONENT 3 -->
+		<div class = "menuInactive" id = "menu">
+			<div class = "menuItem">
+				Headlines
+			</div>
+			<div class = "menuItem">
+				About CoViD-19
+			</div>
+			<div class = "menuItem">
+				Gallery
+			</div>
+			<div class = "menuItem">
+				Hotlines
+			</div>
+		</div> 
+	</body>
+	
+	<script>
+		var slider_leftValue = 0;
+		
+		<!-- COMPONENT 1 -->
+		function moveImageNext(){
+			if(slider_leftValue == -2400){
+				slider_leftValue = 0;
+				document.getElementById("slider").style.left = slider_leftValue + "px";
+			}
+			else
+			{
+				slider_leftValue = slider_leftValue - 800;
+				document.getElementById("slider").style.left = slider_leftValue + "px";
+			}
+			
+			console.log(slider_leftValue);
+		}
+		
+		function moveImageBack(){
+			if(slider_leftValue == 0){
+				slider_leftValue = -2400;
+				document.getElementById("slider").style.left = slider_leftValue + "px";
+			}
+			else
+			{
+				slider_leftValue = slider_leftValue + 800;
+				document.getElementById("slider").style.left = slider_leftValue + "px";
+			}
+			
+			console.log(slider_leftValue);
+		}
+		
+		<!-- COMPONENT 2 -->
+		function toggleAccordion(accordion){
+			if (accordion.nextElementSibling.style.display == "none")
+			{
+				accordion.nextElementSibling.style.display = "block";
+			}
+			
+			else
+			{
+				accordion.nextElementSibling.style.display = "none";
+			}
+		}
+		
+		<!-- COMPONENT 3 -->
+		function toggleMenu(){
+			var menu = document.getElementById("menu");
+			var menuIcon = document.getElementById("menuIcon");
+			
+			if(menu.className == "menuInactive"){
+				menu.className = "menuActive";
+				menuIcon.style.right = "174px";
+			}
+			
+			else {
+				menu.className = "menuInactive";
+				menuIcon.style.right = "0px";
+			}
+		}
+		
+		<!-- COMPONENT 4 -->
+		var alertCounter = 0;
+		
+		function alert1(){
+			var container = document.getElementById("alertContainer");
+			var alert = document.createElement("div");
+			
+			alert.innerHTML = "This is Alert 1";
+			alert.className = "alert1";
+			
+			var close = document.createElement("img");
+			close.src = "img/close.png";
+			close.className = "close";
+			close.setAttribute("onclick", "closeAlert(this)");
+			
+			alert.append(close);
+			
+			alertContainer.append(alert);
+			
+			alertCounter++;			
+		}
+		
+		function alert2(){
+			var container = document.getElementById("alertContainer");
+			var alert = document.createElement("div");
+			
+			alert.innerHTML = "This is Alert 2";
+			alert.className = "alert2";
+			
+			var close = document.createElement("img");
+			close.src = "img/close.png";
+			close.className = "close";
+			close.setAttribute("onclick", "closeAlert(this)");
+			
+			alert.append(close);
+			
+			alertContainer.append(alert);
+			
+			alertCounter++;				
+		}
+		
+		function alert3(){
+			var container = document.getElementById("alertContainer");
+			var alert = document.createElement("div");
+			
+			alert.innerHTML = "This is Alert 3";
+			alert.className = "alert3";
+			
+			var close = document.createElement("img");
+			close.src = "img/close.png";
+			close.className = "close";
+			close.setAttribute("onclick", "closeAlert(this)");
+			
+			alert.append(close);
+			
+			
+			alertContainer.append(alert);
+			
+			alertCounter++;
+		}
+		
+		function closeAlert(alert){
+			alert.parentElement.style.display = "none";
+		}
+		
+		<!-- COMPONENT 5 -->
+		function toggleImage(action){
+			var aModal = document.getElementById("modal");
+			var body = document.getElementById("body");
+			
+			console.log("modal");
+			if(action == 'show')
+				{
+					aModal.className = "modal show";
+					body.style.overflow = "hidden";
+				}
+				
+				else
+				{
+					aModal.className = "modal";
+					body.style.overflow = "auto";
+				}
+		}
+		function inputContent(image){
+			var anImage = document.getElementById("modalImage");
+			var aParagraph = document.getElementById("modalP");
+			
+			anImage.src = image.src;
+			aParagraph.innerHTML = image.nextElementSibling.innerHTML;
+		}
+	</script>
+</html>
